@@ -14,12 +14,6 @@ Containerized a Node.js application with Docker and ran it locally alongside a M
 
 <br>
 
-## Skills demonstrated
-
-Containerization with Docker, Dockerfile authoring, multi-container local development, Docker networking, working with MongoDBd
-
-<br>
-
 ## Architecture:
 
 <img src="images/architecture.drawio.png" alt="">
