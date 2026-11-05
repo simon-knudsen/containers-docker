@@ -4,26 +4,47 @@ Containerized a Node.js application with Docker and ran it locally alongside a M
 
 **Tech:** Docker · Node.js · MongoDB · Mongo Express
 
+<br>
+
 ## What I did
 
 - Created a Dockerfile for a Node.js application and built a Docker image
 - Ran the Node.js app in a Docker container and connected it to a MongoDB database container locally
 - Ran a Mongo Express container as a UI for the MongoDB database
 
+<br>
+
 ## Skills demonstrated
 
 Containerization with Docker, Dockerfile authoring, multi-container local development, Docker networking, working with MongoDBd
 
+<br>
+
 ## Architecture:
 
-![Architecture diagram](images/architecture.drawio.png)
+<img src="images/architecture.drawio.png" alt="">
 
 ## MongoDB + Mongo Express:
 
-![Mongo Express UI](images/mongo-express.png)
+<img src="images/mongo-express.png" alt="">
 
-![Mongo Express database view](images/mongo-express-2.png)
+<img src="images/mongo-express-2.png" alt="">
 
 ## Running App:
 
-![Node.js app running in the browser](images/app.png)
+<img src="images/app.png" alt="">
+
+<br>
+
+# 2. Docker Compose - Run multiple Docker containers
+
+This project uses Docker Compose to run MongoDB and Mongo Express together with a single configuration file.
+
+**Tech:** Docker · MongoDB · Mongo Express
+
+<br>
+
+## What I did
+
+- Wrote a Docker Compose file to configure and run the MongoDB and Mongo Express containers
+- Defined the services, ports, and environment variables needed for the containers to communicate
