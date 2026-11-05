@@ -189,3 +189,36 @@ _Docker image being pushed to the Nexus repository._
 _Docker image successfully available in the Nexus repository._
 
 <br>
+
+# Deploy Docker application on a server with Docker compose
+
+Deployed a Docker Compose application to a remote server, including the Node.js app, MongoDB, and Mongo Express.
+
+**Tech:** Docker · Node.js · MongoDB · Mongo Express
+
+<br>
+
+## What I did
+
+- Copied the Docker Compose configuration to the remote server
+- Logged in to the private Docker registry so the server could pull the application image
+- Started the application, MongoDB, and Mongo Express services with Docker Compose
+- Verified that the deployed application and database services were running successfully
+
+<br>
+
+<img src="images/app-deployed.png" alt="Docker Compose logs showing the deployed services running">
+
+*Docker Compose services running on the remote server.*
+
+<br>
+
+<img src="images/app-verification.png" alt="Mongo Express showing data from the deployed MongoDB database">
+
+*Application data verified through Mongo Express after deployment.*
+
+<br>
+
+<img src="images/framework.png" alt="Diagram of the Docker image build and deployment workflow">
+
+*Overview of the build, registry, and deployment workflow.*
