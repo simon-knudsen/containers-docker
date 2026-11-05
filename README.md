@@ -101,6 +101,10 @@ Created a private Docker registry on Nexus and pushed a Docker image to it from 
 
 <img src="images/push-image.png" alt="">
 
+*Docker image being pushed to the Nexus repository.*
+
 <br>
 
 <img src="images/image-in-nexus.png" alt="">
+
+*Docker image successfully available in the Nexus repository.*
