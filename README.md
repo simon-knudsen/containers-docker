@@ -81,3 +81,26 @@ Dockerized a Node.js application by building and running it as a container.
 <br>
 
 <img src="images/app-listening.png" alt="">
+
+# 4. Create Docker repository on Nexus and push to it
+
+Created a private Docker registry on Nexus and pushed a Docker image to it from a DigitalOcean server.
+
+**Tech:** Docker · Nexus · DigitalOcean · Linux
+
+<br>
+
+## What I did
+
+- Created a hosted Docker repository and a Docker repository role in Nexus
+- Created a Nexus user with permission to push images to the repository
+- Connected Nexus, a DigitalOcean Droplet, and Docker so the server could authenticate with the registry
+- Built and pushed a Docker image to the Nexus repository
+
+<br>
+
+<img src="images/push-image.png" alt="">
+
+<br>
+
+<img src="images/image-in-nexus.png" alt="">
