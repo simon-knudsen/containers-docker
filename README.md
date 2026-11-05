@@ -49,6 +49,8 @@ This project uses Docker Compose to run MongoDB and Mongo Express together with 
 - Wrote a Docker Compose file to configure and run the MongoDB and Mongo Express containers
 - Defined the services, ports, and environment variables needed for the containers to communicate
 
+<br>
+
 <img src="images/start-container.png" alt="">
 
 <br>
@@ -101,10 +103,10 @@ Created a private Docker registry on Nexus and pushed a Docker image to it from 
 
 <img src="images/push-image.png" alt="">
 
-*Docker image being pushed to the Nexus repository.*
+_Docker image being pushed to the Nexus repository._
 
 <br>
 
 <img src="images/image-in-nexus.png" alt="">
 
-*Docker image successfully available in the Nexus repository.*
+_Docker image successfully available in the Nexus repository._
