@@ -141,3 +141,31 @@ _Application data verified through Mongo Express after deployment._
 <img src="images/framework.png" alt="Diagram of the Docker image build and deployment workflow">
 
 _Overview of the build, registry, and deployment workflow._
+
+<br>
+
+# 6. Pesist data with Docker Volumes
+
+Persisted MongoDB data outside the container by attaching a Docker volume to the database service.
+
+**Tech:** Docker · Node.js · MongoDB
+
+<br>
+
+## What I did
+
+- Created and attached a Docker volume to the MongoDB container
+- Mounted the volume at MongoDB's data directory so database files are stored independently of the container
+- Verified that the same data is available from both the Docker volume and the running MongoDB container
+
+<br>
+
+<img src="images/local-data.png" alt="MongoDB data files stored in the local Docker volume">
+
+*MongoDB data files persisted in the local Docker volume.*
+
+<br>
+
+<img src="images/container-data.png" alt="MongoDB data files available inside the running container">
+
+*The same persisted data is available inside the MongoDB container.*
