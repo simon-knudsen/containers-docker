@@ -162,10 +162,34 @@ Persisted MongoDB data outside the container by attaching a Docker volume to the
 
 <img src="images/local-data.png" alt="MongoDB data files stored in the local Docker volume">
 
-*MongoDB data files persisted in the local Docker volume.*
+_MongoDB data files persisted in the local Docker volume._
 
 <br>
 
 <img src="images/container-data.png" alt="MongoDB data files available inside the running container">
 
-*The same persisted data is available inside the MongoDB container.*
+_The same persisted data is available inside the MongoDB container._
+
+<br>
+
+## 7. Deploy Nexus as Docker container
+
+Deployed and configured Nexus Repository Manager as a Docker container on a DigitalOcean Droplet.
+
+**Tech:** Docker · Nexus · DigitalOcean · Linux
+
+<br>
+
+## What I did
+
+- Created and configured a DigitalOcean Droplet
+- Installed Docker and configured persistent storage for Nexus data
+- Set up and ran Nexus Repository Manager as a Docker container
+
+<br>
+
+<img src="images/nexus-data-config.png" alt="Nexus data configuration files mounted into the Docker container">
+
+_All of these files are mounted into docker container._
+
+<br>
