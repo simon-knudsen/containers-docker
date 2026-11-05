@@ -54,3 +54,30 @@ This project uses Docker Compose to run MongoDB and Mongo Express together with 
 <br>
 
 <img src="images/connection-established.png" alt="">
+
+<br>
+
+# 3. Dockerize Nodejs application
+
+Dockerized a Node.js application by building and running it as a container.
+
+**Tech:** Docker · Node.js
+
+<br>
+
+## What I did
+
+- Wrote a Dockerfile to build a Docker image for the Node.js application
+- Ran the application in a Docker container
+
+<br>
+
+<img src="images/build-docker-image.png" alt="">
+
+<br>
+
+<img src="images/docker-image.png" alt="">
+
+<br>
+
+<img src="images/app-listening.png" alt="">
