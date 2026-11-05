@@ -16,14 +16,14 @@ Containerization with Docker, Dockerfile authoring, multi-container local develo
 
 ## Architecture:
 
-![Architecture diagram](docs/architecture.drawio.png)
+![Architecture diagram](images/architecture.drawio.png)
 
 ## MongoDB + Mongo Express:
 
-![Mongo Express UI](docs/mongo-express.png)
+![Mongo Express UI](images/mongo-express.png)
 
-![Mongo Express database view](docs/mongo-express-2.png)
+![Mongo Express database view](images/mongo-express-2.png)
 
 ## Running App:
 
-![Node.js app running in the browser](docs/app.png)
+![Node.js app running in the browser](images/app.png)
